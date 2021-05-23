@@ -8,7 +8,6 @@ for (let i=0;i<50;i++){
   .then((ans)=>{
     fin = ans.replace('Chuck Norris','Suriyaaaaa')
     document.getElementById("main").innerHTML += "<br />" + fin;
-
   })
 }
 // Promise.all(promises)
@@ -26,3 +25,9 @@ async function getapi(){
   let value= await data.value
   return value
 }
+
+
+// a -> b -> c
+
+
+//  Promise : isresolved, status, error
